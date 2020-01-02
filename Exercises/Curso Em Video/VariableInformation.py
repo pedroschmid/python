@@ -1,0 +1,10 @@
+variable = input('Type literally anything: ')
+
+print('The primitve type of this variable is: {}'.format(type(variable)))
+print('Variable contain only spaces? {}'.format(variable.isspace()))
+print('variable is a number? {}'.format(variable.isnumeric()))
+print('Variable is a alphabetical? {}'.format(variable.isalpha()))
+print('Variable is a alphanumeric? {}'.format(variable.isalnum()))
+print('Variable its uppercase? {}'.format(variable.isupper()))
+print('Variable its lowercase? {}'.format(variable.islower()))
+print('Variable its capitalized? {}'.format(variable.istitle()))
