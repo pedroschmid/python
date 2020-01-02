@@ -1,4 +1,7 @@
 import socket
+import os
+
+os.system('COLOR 0')
 
 
 def indexMenu():
