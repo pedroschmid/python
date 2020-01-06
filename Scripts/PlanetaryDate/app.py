@@ -117,7 +117,7 @@ while True:
                 timeHM = currentHour + (currentMinutes / 100)
 
                 #  if/else to check if is night or day
-                if currentSunRise < currentHour < 18:
+                if currentSunRise < currentHour < currentSunSet:
                     dayStatus = 1
                     planetaryHour = math.trunc(timeHM - currentSunRise - 1)
                     planetaryDate = weekDaysPlanets['Day'][weekdayNameList[currentWeekDay]][planetaryHour]
