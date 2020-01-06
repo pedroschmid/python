@@ -14,7 +14,7 @@ def indexMenu():
      |___|_|    \___/_/ \_\_| |_||_|___|_|_\___|_|\_|\___| 
     \033[m""")
 
-    print(f'\033[1;33m>Author: Sholomon\033[m')
+    print(f'\033[1;33m>Author: Pedro Guilherme\033[m')
     print(f'\033[1;33m>Version: 1.0\033[m')
     print(f'\033[1;33m>Apresentation: Welcome to IPGathering, follow the instructions below!\033[m')
 
