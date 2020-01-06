@@ -110,8 +110,8 @@ while True:
     elif menuChoose == 1:
         while True:
             try:
-                currentSunRise = float(input('What time did the sun rise? '))
-                currentSunSet = float(input('What time did the sun set? '))
+                currentSunRise = float(input('What time did the sun rise? \033[1:31m[TYPE FLOAT NUMBERS EX: 5.30 FOR SUNRISE AT 5:30] \033[m'))
+                currentSunSet = float(input('What time did the sun set? \033[1:31m[TYPE FLOAT NUMBERS EX: 18.30 FOR SUNSET AT 18:30] \033[m'))
 
                 #  Transforms datetime into float
                 timeHM = currentHour + (currentMinutes / 100)
