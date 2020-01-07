@@ -119,11 +119,11 @@ while True:
                 #  if/else to check if is night or day
                 if currentSunRise < currentHour < currentSunSet:
                     dayStatus = 1
-                    planetaryHour = math.trunc(timeHM - currentSunRise - 1)
+                    planetaryHour = math.trunc(timeHM - currentSunRise)
                     planetaryDate = weekDaysPlanets['Day'][weekdayNameList[currentWeekDay]][planetaryHour]
                 else:
                     dayStatus = 0
-                    planetaryHour = math.trunc(timeHM - currentSunSet - 1)
+                    planetaryHour = math.trunc(timeHM - currentSunSet)
                     planetaryDate = weekDaysPlanets['Night'][weekdayNameList[currentWeekDay]][planetaryHour]
 
             except KeyboardInterrupt:
